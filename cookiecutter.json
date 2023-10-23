@@ -1,0 +1,11 @@
+{
+    "project_name": "Hero API",
+    "project_description": "Hero API microservice sample",
+    "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '-') }}",
+    "project_slug_snakecase": "{{ cookiecutter.project_name.lower().replace(' ', '_') }}",
+    "project_short_description": "Project {{ cookiecutter.project_name }}",
+    "project_app_name": "hero-app",
+    "author": "(Your name)",
+    "email": "(your email)",
+    "version": "0.1.0"
+}
