@@ -11,7 +11,7 @@ from sqlalchemy import select
 
 from app.core import config, security
 from app.core.db import async_session
-from app.core.models import User
+from app.api.models import UserModel as User
 
 
 async def main() -> None:

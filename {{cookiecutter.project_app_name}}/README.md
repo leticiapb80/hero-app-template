@@ -49,7 +49,12 @@ This project sample has been generated using [cookiecutter](https://cookiecutter
     ```bash
     $ docker-compose up api
     ```
-    - Sample users already created are:
+    - Launch database migrations:
+    ```bash
+    $ docker-compose exec api bash
+    $ opt/alembic upgrade head
+    ```
+    - Sample user already created are, using `initial_data.py` fixture file:
         - user: admin
         - password: admin
 
